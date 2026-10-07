@@ -1,13 +1,13 @@
 cask "claude-translates" do
   version "1.0"
-  sha256 "dd2dd9803aacd760b223638407c804c96218345e612efebdeafebd6fbfff3d86"
+  sha256 "cb93ffb85e13e3c0702ab3b66dc8a622835f5cf0d159abfae5135354692a9a52"
 
   url "https://github.com/paxento/homebrew-tap/releases/download/v#{version}/ClaudeTranslates-#{version}.dmg"
   name "Claude Translates"
   desc "Translation window for macOS that runs on your Claude subscription"
   homepage "https://github.com/paxento/homebrew-tap"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Claude Translates.app"
 
