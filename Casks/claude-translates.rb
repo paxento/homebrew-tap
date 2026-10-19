@@ -1,6 +1,6 @@
 cask "claude-translates" do
-  version "1.0"
-  sha256 "cb93ffb85e13e3c0702ab3b66dc8a622835f5cf0d159abfae5135354692a9a52"
+  version "1.0.1"
+  sha256 "708364eb02eb387f553dc0155087ea39105fec0d1239eddc35caec377336f96d"
 
   url "https://github.com/paxento/homebrew-tap/releases/download/v#{version}/ClaudeTranslates-#{version}.dmg"
   name "Claude Translates"
